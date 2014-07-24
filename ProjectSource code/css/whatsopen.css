@@ -1,0 +1,204 @@
+body {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-image: url("../images/locations-bg.jpg");
+    background-origin: padding-box;
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    color: #000;
+    font: 16px/1.35 'Nunito', sans-serif;
+    text-align: center;
+}
+ * {padding:0; margin:0;}
+img           { border:0; vertical-align:top; }
+
+a             { color:#05c; text-decoration:underline; }
+a:hover       { text-decoration:none; }
+:focus        { outline:0; }
+
+/* Headings */
+h1            { font-size:20px; font-weight:normal; line-height:1.15; }
+h2            { font-size:18px; font-weight:normal; line-height:1.25; }
+h3            { font-size:16px; font-weight:bold; line-height:1.25; }
+h4            { font-size:14px; font-weight:bold; }
+h5            { font-size:12px; font-weight:bold; }
+h6            { font-size:11px; font-weight:bold; }
+
+/* Forms */
+form          { display:inline; }
+fieldset      { border:0; }
+legend        { display:none; }
+
+/* Table */
+table         { border:0; border-collapse:collapse; border-spacing:0; empty-cells:show; font-size:100%; }
+caption,th,td { vertical-align:top; text-align:left; font-weight:normal; }
+
+/* Content */
+strong        { font-weight:bold; }
+address       { font-style:normal; }
+cite          { font-style:normal; }
+q,
+blockquote    { quotes:none; }
+q:before,
+q:after       { content:''; }
+small,big     { font-size:1em; }
+sup           { font-size:1em; vertical-align:top; }
+
+/* Lists */
+ul,ol         { list-style:none; }
+
+
+
+.container {background: none repeat scroll 0 0 #fff;
+    box-shadow: 1px 1px 5px 0 #999;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;}
+  .header {   background-color: #fff;
+    box-shadow: 0 3px 5px 0 #999;
+    float: left;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 940px;}
+  .header h1 {color: #444444;
+    float: left;
+    font-size: 40px;
+    line-height: 80px;
+    text-align: left;
+    width: 650px;}
+  .header img {float:left; height:70px; width:100px; padding:5px; margin-right:20px}
+  .nav { background: url("../images/bg_leftcol.jpg") repeat scroll 0 0 #ffffff;
+    float: left;
+    padding: 10px;
+    width: 150px;}
+  .nav ul {margin:15px; list-style-type:none;}
+  .content { border-left: 1px dashed #999;
+    border-right: 1px dashed #999;
+    float: left;
+    min-height: 500px;
+    padding: 20px;
+    width: 748px;}
+  
+  .footer {clear:left; background-color:#eaeaea;}
+  .loginRegister
+  {
+   float: left;
+    margin-top: 27px;
+  }
+  .logo
+  {
+  float:left;
+  width:140px;
+  }
+  .Maincontainer
+  {
+  float:left;
+  min-height:550px;
+  }
+  .loginRegister li
+  {
+  float: left;
+    padding: 0 10px;
+  }
+  .loginRegister li a {
+    color: #444;
+}
+input.btn
+{
+background-color: #fdb814;
+    border-color: #d78400;
+    border-radius: 0.625em;
+    border-style: none none solid;
+    border-width: 0 0 0.2em;
+    color: #004a98;
+    display: inline-block;
+    font-family:'Nunito', sans-serif;
+    font-size: 0.975em;
+    font-weight: normal;
+    padding: 5px 10px;
+    text-align: center;
+    text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.26);
+    transition: all 0.3s ease-in 0s;
+    width: auto;
+}
+input.btn:hover
+{
+background-color: #fee47a;
+    border-color: #d78400;
+	}
+	
+	input[type=text],input[type=password], textarea,select {
+  -webkit-transition: all 0.30s ease-in-out;
+  -moz-transition: all 0.30s ease-in-out;
+  -ms-transition: all 0.30s ease-in-out;
+  -o-transition: all 0.30s ease-in-out;
+  outline: none;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #E5A017;
+  min-width:200px;
+}
+
+td {
+    line-height: 35px;
+    margin: 0;
+    padding: 3px 10px 3px 3px;
+}
+input[type=text]:focus,input[type=password]:focus, textarea:focus {
+  box-shadow: 0 0 5px #E5A017;
+  padding: 3px 0px 3px 3px;
+  margin: 5px 1px 3px 0px;
+  border: 1px solid #E5A017;
+}
+.HomeButtonSubmit {
+    float: left;
+    margin-left: 130px;
+    margin-top: 10px;
+}
+#content form br
+{
+display:none;
+}
+.blockResult
+{
+	 float: left;
+    padding: 0;
+    width: 100%;
+}
+ul.resultData
+{
+	 background: none repeat scroll 0 0 #fbfbfb;
+    border: 1px solid #999;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px 1px #999;
+    float: left;
+    margin: 1%;
+    padding: 10px 5px;
+    width: 46%;
+	min-height:19em;
+}
+ul.resultData li
+{
+	float: left;
+    padding: 5px;
+    text-align: left;
+    width: 98%;
+
+}
+ul.resultData li a
+{
+	color: #e37c03;
+}
+ul.resultData li b
+{
+	float:left;
+}
+.yousearched
+{
+ font-weight: normal;
+ padding-bottom:10px;
+}
+.yousearched b
+{
+}
